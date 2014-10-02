@@ -93,6 +93,9 @@ caskapps=(
   utorrent
   soulseek
   sopcast
+  limechat
+  lighttable
+  lightpaper
 )
 
 echo "installing cask apps..."
