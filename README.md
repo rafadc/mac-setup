@@ -1,3 +1,3 @@
 # Setup script
 
-My mac setup script
+My mac setup script.

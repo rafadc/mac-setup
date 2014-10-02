@@ -6,6 +6,54 @@ rvm install 2.1.1
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Homebrew
+apps=(
+  mutt
+  go
+  nethack
+  node
+  git
+  gist
+  zsh
+  zsh-completions
+  zsh-lovers
+  opencv
+  octave
+  unrar
+  r
+  flac
+  curl
+  rmthrash
+  clojure
+  cmake
+  sqlite
+  gzip
+  graphviz
+  bash
+  bash-completion
+  heroku-toolbelt
+  ack
+  postgresql
+  haskell-platform
+  aspell
+  imagemagick
+  sshuttle
+  sshfs
+  the_silver_searcher
+  wget
+  markdown
+  ghc
+  gnuplot
+  erlang
+  neo4j
+  mongodb
+  mkvtoolnix
+  lua
+  macvim
+  emacs
+)
+
+echo "installing homebrew apps..."
+brew cask install ${apps[@]}
 
 # Install brew cask
 brew install caskroom/cask/brew-cask
@@ -40,12 +88,19 @@ caskapps=(
   ffmpegx
   coconutbattery
   evernote
+  cyberduck
+  sourcetree
+  utorrent
+  soulseek
+  sopcast
 )
 
-echo "installing apps..."
+echo "installing cask apps..."
 brew cask install ${caskapps[@]}
 brew cask alfred link
 
+# Extra scripts after install
+open /opt/homebrew-cask/Caskroom/utorrent/latest/uTorrent-Installer.app
 
 # Fonts
 
