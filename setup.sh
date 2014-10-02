@@ -96,6 +96,7 @@ caskapps=(
   limechat
   lighttable
   lightpaper
+  iterm2
 )
 
 echo "installing cask apps..."
