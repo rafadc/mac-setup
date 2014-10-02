@@ -115,3 +115,9 @@ fonts=(
 
 echo "installing fonts..."
 brew cask install ${fonts[@]}
+
+# Oh my zsh
+curl -L http://install.ohmyz.sh | sh
+
+# Zsh config
+cp config_files/.zshrc ~/.zshrc
