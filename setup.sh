@@ -97,6 +97,7 @@ caskapps=(
   lighttable
   lightpaper
   iterm2
+  filezilla
 )
 
 echo "installing cask apps..."
